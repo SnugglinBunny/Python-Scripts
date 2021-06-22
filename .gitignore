@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # folders to ignore
-./rename
+./rename/
