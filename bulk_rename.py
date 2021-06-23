@@ -1,7 +1,5 @@
 import os
 
-folderToRename = "rename"
-  
 # Function to rename multiple files
 def main(filetype, newname):
   
@@ -14,6 +12,7 @@ def main(filetype, newname):
   
 # Driver Code - if this is the the main file running, no called from another file
 if __name__ == '__main__':
+    folderToRename = input("What is the folder called with the files you want to rename?")
     filetype = input("Which file type do you want to rename?")
     newname = input("What name would you like to use?")
 
