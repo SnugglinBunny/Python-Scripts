@@ -10,7 +10,7 @@ def main(filetype, newname):
             os.rename(src, dst)
         
   
-# Driver Code - if this is the the main file running, no called from another file
+# Driver Code - only runs if this is the the main file running, not called from another file.
 if __name__ == '__main__':
     folderToRename = input("What is the folder called with the files you want to rename?")
     filetype = input("Which file type do you want to rename?")
